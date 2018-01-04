@@ -164,7 +164,7 @@ func newSite(icon string, navbar []string, title string /*backgroundImage string
 }
 
 func (s *site) WriteGeneratedSiteToFile(filename string) error {
-	data := s.Generate("Test.html")
+	data := s.Generate("Test")
 
 	//f, err := os.Create(filename)
 
